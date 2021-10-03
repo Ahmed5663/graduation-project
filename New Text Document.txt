@@ -1,0 +1,5 @@
+/**navbar**/
+nav a:hover{
+    background-color: lightgray;
+    color: black !important;
+}
