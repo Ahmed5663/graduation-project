@@ -19,31 +19,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" id="hotel" href="#">Hotel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" id="hotel" href="index.html">Hotel <i class="fas fa-star"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Rooms</a>
+            <a class="nav-link active text-light" aria-current="page" href="#rooms">Rooms <i class="fas fa-bed"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="more rooms.html">Special Rooms</a>
+            <a class="nav-link text-light" href="more rooms.html">Special rooms <i class="fas fa-user-tag"></i></a>
             </li>
-            
+            <li class="nav-item">
+            <a class="nav-link text-light" href="checkout.html">Check In/Out <i class="fas fa-sign-out-alt"></i></a>
             </li>
-           
+            <li class="nav-item">
+            <a class="nav-link text-light" href="contact.html">Contact <i class="fas fa-phone"></i></a>
+            </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-primary" type="submit">Search</button>
-          </form>
+          </div>
         </div>
-      </div>
-    </nav>
+        </nav>
+      </header>
       <!--carousel-->
 
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -186,22 +187,6 @@
             </div>
             </div>
             <!--all rooms-->
-            <A href="more rooms.html"  id="see all rooms"><button  class="btn btn-primary text-light container-fluid">See All Rooms</button></A>
-      <!--check in/out--><br>
-      <div id="check" class="container-fluid">
-      <h1 class="text-center">Check in/out</h1><br><br>
-
-      <h3 class="input-1">Check in Date <p class="text-muted fs-5 input">Input Date</p></h3>
-      <label>
-          <input id="date" class="text-center" type="date">
-      </label>
-
-      <br><br><h3 class="input-1">Check Out Date<p class="text-muted fs-5 input">Input Date</p></h3>
-      <label>
-          <input id="date" class="text-center" type="date">
-      </label><br><br>
-
-      <button href="#" type="submit" style="border-radius: 20px;" class="btn btn-primary text-center col-2">submibt</button><br><br></br>
-    </div>
+            <A href="more rooms.html"  id="see all rooms"><button  class="btn btn-primary text-light container-fluid">See All Rooms</button></A>     
   </body>
 </html>
