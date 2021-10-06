@@ -1,7 +1,7 @@
 /**navbar**/
 nav a:hover{
     background-color: lightgray;
-    color: black !important;
+    color: #343a40 !important;
 }
 nav a{
     color: white !important;
@@ -10,8 +10,12 @@ nav a{
     border: white !important;
     color: white;
 }
+#search-1{
+    width: 300px;
+    float: right !important;
+}
 #hotel:hover{
-    background-color: #212529 !important;
+    background-color: #343a40 !important;
     color: white !important;
 }
 /**carousel**/
@@ -55,4 +59,8 @@ nav a{
 }
 #user text{
     font-size: 30px;
+}
+/**contact**/
+#button-1:hover{
+    background-color: #343a40;
 }
