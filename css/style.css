@@ -31,7 +31,24 @@ nav a{
 .card{
     width: 500px !important;
 }
-
+#room{
+    border-bottom: black solid 2px;
+    width: 200px;
+    position: relative;
+    left: 850px;
+}
+#rooms{
+    display: none;
+}
+#div2{
+    display: none;
+}
+#yy-1{
+    display: none;
+}
+#yy-2{
+    display: none;
+}
 /**input group**/
 #input{
     border-radius: 20px;
